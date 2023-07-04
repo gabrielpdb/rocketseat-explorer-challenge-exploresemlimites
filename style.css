@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --bg-light: #f9f4fb;
+  --purple: #b52184;
+  --blue: #312d64;
+  --gradient: linear-gradient(134deg, #343193 0%, #302c63 100%);
+}
+
+button,
+input,
+textarea {
+  font-family: 'Mulish', sans-serif;
+}
+
+body {
+  width: 100%;
+  text-align: center;
+  background-color: var(--bg-light);
+  font-family: 'Mulish', sans-serif;
+}
+
+.cover {
+  width: 100%;
+  height: 100vh;
+}
+
+.cover img:nth-child(1) {
+  width: 36.4rem;
+  margin-bottom: 1.7rem;
+}
+
+.cover h1 {
+  font-size: 3.2rem;
+  font-weight: 900;
+  color: var(--purple);
+  margin-bottom: 0.5rem;
+}
+
+.cover p {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--blue);
+  margin-bottom: 3.5rem;
+}
+
+.cover img:nth-child(2) {
+  width: 6rem;
+}
+
+main {
+  background: var(--gradient);
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  align-items: center;
+  padding: 5rem 4rem;
+}
+
+main .card {
+  width: 35.2rem;
+  background-color: white;
+  border-radius: 2rem;
+  box-shadow: 0px 3.3107693195343018px 13.243077278137207px 0px
+    rgba(0, 0, 0, 0.25);
+  padding: 2.65rem;
+  text-align: start;
+}
+
+main .card img {
+  width: 8rem;
+  margin-bottom: 3.3rem;
+}
+
+main .card h2 {
+  font-size: 3rem;
+  font-weight: 900;
+  color: var(--purple);
+}
+
+main .card p {
+  max-width: 26.5rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--blue);
+}
+
+section {
+  padding: 7rem 4rem;
+  text-align: start;
+}
+
+section h1 {
+  font-size: 3.2rem;
+  font-weight: 900;
+  color: var(--purple);
+  margin-bottom: 4.3rem;
+}
+
+section form {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+section form .input-wrapper {
+  border-radius: 1.6rem;
+  border: 1px solid var(--blue);
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  padding: 1.2rem 1.6rem 1.2rem 1.4rem;
+  width: 100%;
+}
+
+section form .input-wrapper textarea,
+section form .input-wrapper input {
+  background-color: transparent;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--blue);
+  width: 100%;
+  outline: none;
+}
+
+section form .input-wrapper textarea {
+  height: 13rem;
+}
+
+section form button {
+  margin-top: 2.4rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: white;
+  background: var(--gradient);
+  padding: 1.6rem;
+  width: fit-content;
+  border-radius: 1.6rem;
+}
+
+footer {
+  background: var(--gradient);
+  padding: 2.6rem 1.6rem;
+  font-size: 2rem;
+  font-weight: 600;
+  color: white;
+}
