@@ -234,7 +234,7 @@ footer {
     bottom: 0;
     right: 0;
 
-    width: 50%;
+    width: fit-content;
     max-height: 100%;
   }
 }
